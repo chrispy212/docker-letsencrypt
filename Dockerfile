@@ -15,6 +15,7 @@ RUN \
  echo "**** install runtime packages ****" && \
  apk add --no-cache --upgrade \
 	curl \
+  dnsmasq \
 	fail2ban \
 	gnupg \
 	memcached \
